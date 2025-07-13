@@ -1,0 +1,5 @@
+number_of_rows = int(input("Enter the number of rows: "))
+number_of_columns = int(input("Enter the number of columns: "))
+index_number = int(input("Enter index: "))
+inversr_index = (index_number//number_of_columns, index_number % number_of_columns)
+print(inversr_index)
